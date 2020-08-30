@@ -2,29 +2,91 @@
     <title>Janusz i syn sp. z o.o. </title>
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link rel="shortcut icon" href="/favicon.png" />
-<style>
-  body {
+    <meta charset="UTF-8">
+  <style>
+    body {
+        margin-left: 0px;
+        background: #121212;
+    color: white;
+    font-family: Open Sans;
+    font-weight: bold;
+    }
+
+    .container {
+      display:grid;
+      grid-template-columns:  1fr,2fr,2fr,1fr;
+      grid-template-rows: 2fr,1fr,1fr,2fr;
+      grid-template-areas:
+      'test1 test2 test3 test4'
+      'test1 test2 test3 test4';
+    }
+
+    .test1 {
+      margin-left: auto;
+
+      grid-area:test1;
+    }
+
+    .test2 {
       margin-left: 200px;
-      background: #121212;
-  color: white;
-  font-family: Open Sans;
-  font-weight: bold;
+      grid-area:test2;
+    }
 
-  }
+    .test3 {
+      margin-left: 50px;
+      grid-area: test3;
+    }
 
+    .test4 {
+      margin-right: 0px
+      grid-area:test4;
+    }
+  </style>
 
-</style>
+<div class="container">
+  <div class=test1>
 
-    <head><h1>
-        D&#378;wig otch&#322;ani  &#127758;
-        </h1>
-        <iframe width="560" height="315"
-         src="https://www.youtube.com/embed/DWaB4PXCwFU"
-         frameborder="0" allow="accelerometer;
-         autoplay; encrypted-media; gyroscope;
-         picture-in-picture" allowfullscreen></iframe>
-    </head>
+  </div>
 
+  <div class='test2'>
+      <head>
+          <h1>
+          Dźwig otchłani  &#127758;
+          </h1>
+          <iframe width="560" height="315"
+           src="https://www.youtube.com/embed/DWaB4PXCwFU"
+           frameborder="0" allow="accelerometer;
+           autoplay; encrypted-media;
+           picture-in-picture" allowfullscreen></iframe>
+           <h5>                                </h5>
+           <iframe width="560" height="315"
+           src="https://www.youtube.com/embed/TTN9RegpfK0"
+          frameborder="0" allow="accelerometer;
+          autoplay; encrypted-media;
+          picture-in-picture" allowfullscreen></iframe>
+          <h5>                                       </h5>
+          <iframe width="560" height="315"
+           src="https://www.youtube.com/embed/9mHhFrdnT44"
+           frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+          picture-in-picture" allowfullscreen></iframe>
+      </head>
+  </div>
 
+  <div class='test3'>
+      <h4> Lorem ipsum to tylko test krzysiu i troche nie wiem
+        co moge tu napisać żeby stestować grid i flexboxa w CSS ale staram
+        się ok ;___; No i ja sie pytam człowieku, dumny ty jesteś z siebie?
+        Lorem ipsum to tylko test krzysiu i troche nie wiem
+        co moge tu napisać żeby stestować grid i flexboxa w CSS ale staram
+        się ok ;___; No i ja sie pytam człowieku, dumny ty jesteś z siebie?
+        Lorem ipsum to tylko test krzysiu i troche nie wiem
+        co moge tu napisać żeby stestować grid i flexboxa w CSS ale staram
+        się ok ;___; No i ja sie pytam człowieku, dumny ty jesteś z siebie?
+      </h4>
+  </div>
 
+  <div class ='test4'>
+  </div>
+
+</div>
 </html>
