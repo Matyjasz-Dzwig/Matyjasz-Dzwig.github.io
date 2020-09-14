@@ -161,7 +161,7 @@
         himenaeos. Sed sed diam lobortis, blandit dolor ac, fringilla augue. Fusce
         , ligula sed luctus vehicula, risus odio posuere arcu, gravida facilisis
         ligula orci ut magna. In non justo dolor. Sed ligula nulla, luctus et
-        vehicula at, porta eu lacus.
+        vehicula at, porta eu lacus. <p id = "myText">.</p>
       </h4>
   </div>
 
@@ -169,4 +169,13 @@
   </div>
 
 </div>
+<script>
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today ="Dzisiaj mamy " + dd + '/' + mm + '/' + yyyy + " Krzysiu uwu";
+document.getElementById("myText").innerHTML = today;
+</script>
 </html>
