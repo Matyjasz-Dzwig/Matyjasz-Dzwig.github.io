@@ -1,40 +1,46 @@
-.a1 {
-  display: inline-block;
-  position: sticky;
-  background-color: #222222;
-  height: 70px;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  border-spacing: 0;
-
+body {
+    background-color: #fafdf3;
+    margin: 0;
 }
 
-.b1 {
-  margin: 0;
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
 }
 
-.title {
-  display: inline-block;
-  margin-left: 1.5%;
-  margin-top: 1.5%;
-  color: white;
-  font-family: helvetica;
-  font-size: 20px;
+.header {
+    position: fixed;
+    left: 50% ;
+    transform: translate(-50%);
+    font-family: helvetica;
 }
 
-.a2 {
-  display: inline-block;
-  margin-left:200px;
-  margin-right:200px;
-  font-family: helvetica;
+.headerText {
+    display: block;
+    font-size: 3.5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 p {
     display: block;
-    margin-block-start: 10px;
-    margin-block-end: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.main {
+    position: fixed;
+    left: 50% ;
+    transform: translate(-50%);
+    font-size: 4em;
+    font-weight: bold;
+    padding-top: 10%;
+
+}
+.myTime {
+
 }
